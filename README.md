@@ -2,13 +2,9 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+<h1>On-premises Active Directory Deployed in the Cloud and Group Policy management(Azure)</h1>
+This tutorial outlines the implementation of on-premises Active Directory on Azure Virtual Machines and file share<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -24,10 +20,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Setup 2 Virtual Machines on the same Vnet and set one to be the Domain Controller and the other to be the Client
+- Step 2: Access the Domain Controller virtually and install Active Directory Domain Services
+- Step 3: Create an Admin in Active Directory Users and Computers
+- Step 4: Create a a new Orginzational Unit  called  _EMPLOYEES and create a fake employee
+- Step 5: Create shared folders on Domain Controller and set permissions
 
 <h2>Deployment and Configuration Steps</h2>
 
